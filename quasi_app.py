@@ -7,15 +7,7 @@ class Exchange(UserControl):
         self.fecha = ft.TextField(label="Fecha de la Transaccion",border=ft.InputBorder.UNDERLINE,color=ft.colors.BLACK,width=200)
         self.marketrate = ft.TextField(label="Tasa Mercado (Bs x 1 USD)",border=ft.InputBorder.UNDERLINE,color=ft.colors.BLACK,width=200)
         
-       
-        
-    """def tabs_changed(self, event):
-        pass
-    
-    def update(self):
-        status = self.tabs_filter.tabs[self.tabs_filter.selected_index].text
-        super().update()"""
-         
+
 def main(page: ft.Page):
     
     m = Column(
