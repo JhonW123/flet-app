@@ -113,8 +113,7 @@ def main(page: ft.Page):
             r = ft.Text("Esto es una prueba")
             page.add(r)
             page.update()"""        
-    
-         
+     
     bancoemisor = ft.Dropdown(
             label="Forma de entrega de las divisas",
             hint_text="Por favor seleccione una opcion?",
@@ -472,6 +471,8 @@ def main(page: ft.Page):
             ]
         )
     )
+    
+    # 4to Commit
     # Esta es la variable de la ficha Reportes. Tiene un container
     w = Container(
         width=100, 
