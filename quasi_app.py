@@ -75,7 +75,7 @@ def main(page: ft.Page):
     salesw  = ft.Text("Venta",size=30)
     permutasw = ft.Text("Swap",size=30)
 
-    ### Prueba de dropdown
+    ### Prueba de dropdown (3er commit)
     """def dropdown_panama(e):   
         z= ft.Dropdown(
         label="Recepcion de los fondos",
