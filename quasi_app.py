@@ -1,13 +1,6 @@
 import flet as ft
 from flet import Checkbox, Column, FloatingActionButton, Page, Row,Tabs, TextField, UserControl, Text, icons, Container, padding, Divider, colors, alignment, MainAxisAlignment, margin
 
-class Exchange(UserControl):
-    # initialization or constructor method of
-    def build(self):
-        self.fecha = ft.TextField(label="Fecha de la Transaccion",border=ft.InputBorder.UNDERLINE,color=ft.colors.BLACK,width=200)
-        self.marketrate = ft.TextField(label="Tasa Mercado (Bs x 1 USD)",border=ft.InputBorder.UNDERLINE,color=ft.colors.BLACK,width=200)
-        
-
 def main(page: ft.Page):
     
     m = Column(
