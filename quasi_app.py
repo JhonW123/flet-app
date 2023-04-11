@@ -130,7 +130,7 @@ def main(page: ft.Page):
             ft.dropdown.Option("Cash"),
         ],
     )
-    # z es la variable de la ficha Compra
+    
     
     # u es la variable de la ficha Venta
     u= Container(
@@ -334,6 +334,7 @@ def main(page: ft.Page):
         )
     )
     
+    # z es la variable de la ficha Compra
     z = Container(
         width=100, 
         height=100,
@@ -600,6 +601,7 @@ def main(page: ft.Page):
         )
     )
 
+    # s es la variable de la ficha Swap
     s = Container(
         width=100, 
         height=100,
